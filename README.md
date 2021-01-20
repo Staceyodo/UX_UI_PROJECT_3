@@ -12,9 +12,10 @@ This product helps musicians manage their projects.
 * Jay Corcoran-Shaffer
 
 ### Tools Used
-* list
-* all
-* tools
+* Figma
+* Miro
+* Visual Studio Code
+
 ### Project Links
 - [Google Slides](url-link-here)
 - [Figma Prototypes](url-link-here)
