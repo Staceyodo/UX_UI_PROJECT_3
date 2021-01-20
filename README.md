@@ -4,8 +4,6 @@
 
 Music Project Management
 
----
-
 **Timeline:** January - February 2021
 
 **Authors:**
