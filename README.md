@@ -1,11 +1,14 @@
 # UX_UI_PROJECT_3
-Sidetrack App
+
+## Sidetrack App
 
 Music Project Management
 
-Timeline: January - February 2021
+---
 
-Authors:
+**Timeline:** January - February 2021
+
+**Authors:**
 Stacey Odo,
 Ben Almen,
 Saniya Arora,
