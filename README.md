@@ -1,5 +1,5 @@
 # Sidetrack : Project Management App
-> Status: [Live Project](https://staceyodo.github.io/UX_UI_PROJECT_3/)
+>View Live Project: [Sidetrack App](https://staceyodo.github.io/UX_UI_PROJECT_3/)
 
 ## Overview
 This product helps musicians manage their projects.
