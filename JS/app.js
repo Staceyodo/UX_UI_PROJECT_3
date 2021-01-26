@@ -1,3 +1,4 @@
+//sidebar menu
 $(document).ready(function () {
     $("#sidebar").mCustomScrollbar({
         theme: "minimal"
@@ -9,7 +10,7 @@ $(document).ready(function () {
         $('a[aria-expanded=true]').attr('aria-expanded', 'false');
     });
 });
-
+//dropdown menu
 $(document).ready(function(){
     $(".dropdown").hover(function(){
         var dropdownMenu = $(this).children(".dropdown-menu");
@@ -18,7 +19,7 @@ $(document).ready(function(){
         }
     });
 });
-
+//add task
 $(document).ready(function(){
     $(".new-task").click(function(){
         $("#empty").append('<div  class="task-card container card col-md-3 m-3" id="task">'+
