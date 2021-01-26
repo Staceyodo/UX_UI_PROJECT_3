@@ -2,6 +2,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #14142B;
+    padding: 0px;
+    margin: 0px;
 }
 
 p {
@@ -19,8 +21,26 @@ a:focus {
     text-decoration: none;
     transition: all 0.3s;
 }
+.button-plus {
+    background-color: #14142B;
+    text-decoration: none;
+    box-shadow: none;
+    border-style: none;
+    
+
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+    background-color: #26233F;
+}
+.dropdown-item {
+    color: #FF8800;
+}
 .btn {
-    background-color: #FF8800 !Important;
+    background-color: #FF8800 !important;
 }
 .navbar {
     padding: 15px 10px;
@@ -70,7 +90,7 @@ a:focus {
 }
 
 #sidebar .sidebar-header {
-    padding: 20px;
+    padding: 0px;
     background: #6E7191;
 }
 
@@ -145,11 +165,19 @@ a.article:hover {
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
+
+.sidebar-header {
+    margin: none !important;
+    padding: none !important;
+}
 .gradient {
     font-size: 36px;
     background: -webkit-linear-gradient(#FF8800, #FFCC00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.large-plus {
+    font-size: 96px;
 }
 .fa-plus {
     color:  #FF8800;
@@ -162,15 +190,14 @@ a.article:hover {
 h3.card-title {
     text-decoration: underline;
 }
-#tasks {
+
+.task-card {
     background-color: #26233F !important;
     color: #DEDEDE;
     padding: 35px;
 }
-#today {
-    background-color: #26233F !important;
-    color: #DEDEDE;
-    padding: 35px;
+.fa-square {
+    padding: 1px;
 }
 #content {
     width: calc(100% - 250px);

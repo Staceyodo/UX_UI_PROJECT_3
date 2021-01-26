@@ -35,7 +35,7 @@
   <!-- Sidebar  -->
   <nav id="sidebar">
       <div class="sidebar-header">
-          <h3>SideTrack</h3>
+          <img class="logo" width="250px" height="125px" src="Images/Logo_background.png">
       </div>
 
       <ul class="list-unstyled components">
@@ -80,43 +80,73 @@
       </ul>
   </nav>
 
-  <!-- Page Content  -->
+  <!-- Header Section-->
   <div id="content">
-
-      <nav class="navbar">
-          <div class="container-fluid">
-
-              <button type="button" id="sidebarCollapse" class="btn btn-group-vertical ">
-                  <i class="fas fa-align-justify"></i>
-                  <span></span>
-              </button>
-              <h2 Class="gradient">Dashboard</h2>
-              <i class="fas fa-plus gradient"></i>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <button type="button" id="sidebarCollapse" class="btn btn-group-vertical ">
+          <i class="fas fa-align-justify"></i>
+          <span></span>
+        </button>
+        <div class="inline-block row">
+          <h2 Class="gradient col-md-9">Dashboard</h2>
+          <nav class="nav col-md-3">
+            <button class="button-plus dropdown nav-link" data-toggle="dropdown"><i class="fas fa-plus gradient"></i></button>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item new-task">New Task</a>
+              <a href="#" class="dropdown-item new-file">New File</a>
+              <a href="#" class="dropdown-item new-project">New Project</a>
             </div>
           </nav>
-<div class="container-fluid row">
-  <div  class="today-card container card col-md-4 m-1" id="today">
-    <h3 class="card-title">Today</h3>
-  <div class="card" id="task-description">
-      <p class="card-text">Create harmony by 01/30/21</p>
-    </div>
-  </div>
+        </div>
+      </div>
+    </nav>
   
-   <div  class="task-card container card col-md-4 m-1" id="tasks">
-      <h3 class="card-title">Task</h3>
-    <div class="card" id="task-description">
+     <!-- Page Content  -->
+    <div class="container-fluid justify-content-center row">
+      <div  class="task-card container card col-md-3 m-3" id="today">
+        <h3 class="card-title">Today</h3>
+      <div class="card" id="today-description">
         <p class="card-text">Create harmony by 01/30/21</p>
       </div>
-    </div> 
-    
-    <div  class=" container task-card card col-md-4 m-1" id="tasks">
+      </div>
+  
+      <div  class="task-card container card col-md-3 m-3" id="tasks">
         <h3 class="card-title">Task</h3>
       <div class="card" id="task-description">
-          <p class="card-text">Create harmony by 01/30/21</p>
-        </div>
+        <p class="card-text">Create harmony by 01/30/21</p>
+      </div>
       </div> 
+    
+      <div  class=" container task-card card col-md-3 m-3" id="tasks">
+        <h3 class="card-title">Task</h3>
+      <div class="card" id="task-description">
+        <p class="card-text">Create harmony by 01/30/21</p>
+      </div>
+      </div> 
+      <div  class=" container task-card card col-md-3 m-3" id="calendar-card">
+        <h3 class="card-title">Calendar</h3>
+      <div class="card container-fluid m-3 text-center" id="calendar-description">
+        <p class="card-text"><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><br><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><br><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><br><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i><br><i class="fas fa-square"></i><i class="fas fa-square"></i><i class="fas fa-square"></i></p>
+      </div>
+      </div> 
+      <div  class=" container task-card card col-md-3 m-3" id="recent-activity">
+        <h3 class="card-title">Recent Activity</h3>
+      <div class="card" id="recent-activity-description">
+        <p class="card-text"></p>
+      </div>
+      </div> 
+      <div  class=" container task-card card col-md-3 m-3" id="new-project">
+        <h3 class="card-title">New Project</h3>
+      <div class="container text-center" id="new-project-description">
+        <span><br><br><i class="fas fa-plus large-plus"></i></span>
+      </div>
+      </div> 
+      
     </div>
+    <div class="container-fluid justify-content-center row" id="empty">
 
+    </div>
   </div>
 </div>
 
