@@ -151,6 +151,9 @@ a.article:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.fa-plus {
+    color:  #FF8800;
+}
 .card-text {
     color: #26233F !important;
     padding: 20px;
@@ -163,6 +166,13 @@ h3.card-title {
     background-color: #26233F !important;
     color: #DEDEDE;
     padding: 50px;
+    margin: 5px;
+}
+#today {
+    background-color: #26233F !important;
+    color: #DEDEDE;
+    padding: 50px;
+    margin: 5px;
 }
 #content {
     width: calc(100% - 250px);
